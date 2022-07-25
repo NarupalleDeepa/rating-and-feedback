@@ -1,8 +1,8 @@
-<div class="mat-h2">Please rate this app!</div>
-<p>Star rating is easily implmented in Angular with material icons <span class="highlight">star</span> and <span class="highlight">star_border</span>. No plugin needed.</p>
+<br><br><div class="mat-h2" style="color:black;">Please rate this Store</div>
+<!--<p>Star rating is easily implmented in Angular with material icons <span class="highlight">star</span> and <span class="highlight">star_border</span>. No plugin needed.</p>-->
 <!-- Display an array of star/star_border buttons -->
 <button mat-icon-button color="accent" *ngFor="let r of ratingArr; index as i" 
-    (click)="onClick(i)">
+    (click)="onClick(i)" style="color:green;">
     <mat-icon>
         {{ returnStar(i) }}
     </mat-icon>
